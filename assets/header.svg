@@ -1,52 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 340" font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7c3aed"/>
       <stop offset="50%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f2430"/>
+      <stop offset="100%" stop-color="#171b26"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="28"/>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.55"/>
     </filter>
+    <clipPath id="win"><rect x="20" y="18" width="940" height="304" rx="12"/></clipPath>
   </defs>
 
-  <rect width="900" height="200" rx="18" fill="#0b0f1a"/>
-  <ellipse cx="180" cy="40" rx="180" ry="90" fill="#7c3aed" opacity="0.28" filter="url(#soft)"/>
-  <ellipse cx="740" cy="170" rx="200" ry="90" fill="#06b6d4" opacity="0.25" filter="url(#soft)"/>
-  <ellipse cx="470" cy="110" rx="140" ry="70" fill="#3b82f6" opacity="0.16" filter="url(#soft)"/>
-
-  <g opacity="0.35" stroke="url(#g2)" stroke-width="1" fill="none">
-    <path d="M40 150 C 160 90, 240 190, 360 130 S 560 70, 700 120 S 840 160, 870 120" stroke-dasharray="6 10">
-      <animate attributeName="stroke-dashoffset" from="160" to="0" dur="6s" repeatCount="indefinite"/>
-    </path>
+  <!-- editor window -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="18" width="940" height="304" rx="12" fill="url(#bg)" stroke="#2d3340" stroke-width="1.5"/>
   </g>
 
-  <g fill="#a5b4fc" opacity="0.9">
-    <circle cx="70" cy="60" r="2.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="55" r="3"><animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="640" cy="38" r="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="260" cy="165" r="2.5"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="540" cy="172" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+  <g clip-path="url(#win)">
+    <!-- title bar -->
+    <rect x="20" y="18" width="940" height="42" fill="url(#bar)"/>
+    <circle cx="52" cy="39" r="6.5" fill="#ff5f57"/>
+    <circle cx="74" cy="39" r="6.5" fill="#febc2e"/>
+    <circle cx="96" cy="39" r="6.5" fill="#28c840"/>
+    <text x="490" y="44" text-anchor="middle" font-size="13" fill="#7d8590">saptarshi — profile.tsx</text>
+
+    <!-- activity / line numbers -->
+    <rect x="20" y="60" width="56" height="262" fill="#12161e"/>
+    <g font-size="12.5" fill="#484f58" text-anchor="end">
+      <text x="64" y="92">1</text><text x="64" y="118">2</text><text x="64" y="144">3</text>
+      <text x="64" y="170">4</text><text x="64" y="196">5</text><text x="64" y="222">6</text>
+      <text x="64" y="248">7</text><text x="64" y="274">8</text><text x="64" y="300">9</text>
+    </g>
+    <!-- active line highlight -->
+    <rect x="76" y="152" width="884" height="26" fill="#7c3aed" opacity="0.10"/>
+
+    <!-- code -->
+    <g font-size="15.5">
+      <text x="92" y="112"><tspan fill="#c678dd">export const</tspan><tspan fill="#61afef"> developer</tspan><tspan fill="#abb2bf"> = {</tspan></text>
+      <text x="124" y="138"><tspan fill="#e06c75">  name</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#98c379">"Saptarshi Mukherjee"</tspan><tspan fill="#abb2bf">,</tspan></text>
+      <text x="124" y="164"><tspan fill="#e06c75">  role</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#98c379">"Full-stack · ML · 3D"</tspan><tspan fill="#abb2bf">,</tspan></text>
+      <text x="124" y="190"><tspan fill="#e06c75">  stack</tspan><tspan fill="#abb2bf">: [</tspan><tspan fill="#98c379">"TypeScript"</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#98c379">"Rust"</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#98c379">"Python"</tspan><tspan fill="#abb2bf">],</tspan></text>
+      <text x="124" y="216"><tspan fill="#e06c75">  ships</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d19a66">true</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#e06c75">coffee</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d19a66">Infinity</tspan><tspan fill="#abb2bf">,</tspan></text>
+      <text x="124" y="242"><tspan fill="#e06c75">  openTo</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#98c379">"interesting work"</tspan><tspan fill="#abb2bf">,</tspan></text>
+      <text x="92" y="268" fill="#abb2bf">}</text>
+      <text x="92" y="300"><tspan fill="#5c6370">// $ </tspan><tspan fill="#22d3ee" filter="url(#glow)">npm run build --future</tspan><tspan fill="#7c3aed" opacity="1">▊</tspan></text>
+    </g>
   </g>
 
-  <text x="450" y="88" text-anchor="middle" font-size="46" font-weight="800" fill="url(#g)" filter="url(#glow)" letter-spacing="1">
-    SAPTARSHI MUKHERJEE
-  </text>
-  <text x="450" y="128" text-anchor="middle" font-size="19" fill="#cbd5e1" letter-spacing="6" font-weight="500">
-    DEVELOPER · BUILDER · CREATOR
-  </text>
-  <g transform="translate(450,158)">
-    <rect x="-150" y="-11" width="300" height="22" rx="11" fill="none" stroke="url(#g2)" stroke-width="1.5" opacity="0.8"/>
-    <text y="5" text-anchor="middle" font-size="13" fill="#94a3b8" letter-spacing="3" font-family="monospace">
-      &lt; code · design · ship /&gt;
-    </text>
-  </g>
+  <!-- top accent line -->
+  <rect x="20" y="18" width="940" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>

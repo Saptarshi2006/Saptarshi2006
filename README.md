@@ -1,102 +1,133 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Saptarshi2006/Saptarshi2006/main/assets/header.svg" alt="" onerror="this.style.display='none'">
+<img width="100%" src="https://raw.githubusercontent.com/Saptarshi2006/Saptarshi2006/main/assets/header.svg" alt="Saptarshi Mukherjee — developer" />
 
-<h1>Hey there, I'm Saptarshi 👋</h1>
+<br/><br/>
 
-<h4>🎓 Student developer &nbsp;·&nbsp; 🛠️ Building web apps, ML pipelines &amp; 3D experiences</h4>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3200&pause=700&color=22D3EE&center=true&vCenter=true&width=620&lines=Full-stack+Developer;ML+Pipelines+%26+SHAP;3D+%2F+WebGL+Experiences;I+ship+things+that+work" alt="Full-stack Developer · ML Pipelines · 3D Experiences" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saptarshi-mukherjee-6a2b20280/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=google-chrome&logoColor=white)](https://saptarshi2006.github.io)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Saptarshi2006)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saptarshi.mukherjee.dev@gmail.com)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saptarshi-mukherjee-6a2b20280/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-22d3ee?style=plastic&logo=googlechrome&logoColor=black)](https://saptarshi2006.github.io)
+[![X](https://img.shields.io/badge/X-ffffff?style=plastic&logo=x&logoColor=black)](https://x.com/Saptarshi2006)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white)](mailto:saptarshi.mukherjee.dev@gmail.com)
 
 </div>
 
 ---
 
-### 🚀 A little about me
+## 🖥️ whoami
 
-I'm a student who loves turning ideas into **shipped products** — from full-stack apps and
-microservice architectures to machine-learning pipelines and cinematic 3D web experiences.
-I care about clean architecture, smooth interactions, and things that actually work.
+```console
+$ whoami
+saptarshi_mukherjee
 
-```yaml
-currently: Building FitMentor & exploring full-stack systems
-learning:  Distributed systems, ML engineering, WebGL
-fun_fact:  I ship on weekends and refactor at 2am
+$ cat about.txt
+Student developer who turns ideas into shipped products — full-stack apps,
+microservice architectures, ML pipelines and cinematic 3D web experiences.
+I care about clean architecture, smooth interactions, and things that
+actually work in production.
+
+$ cat currently.yml
+building:   FitMentor · Cartis · Synapse
+learning:   distributed systems · ML engineering · WebGL
+stack:      TypeScript · Rust · Python · Next.js
+status:     <available_for>interesting_work</available_for>
 ```
 
 ---
 
-### 🛠️ Tech I work with
+## ⚡ tech stack
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![skill icons](https://skillicons.dev/icons?i=ts,react,nextjs,threejs,python,rust,nodejs,postgres,graphql,docker,git,figma)
+
+<br/><br/>
+
+![skill icons](https://skillicons.dev/icons?i=vscode,linux,vercel,cloudflare,firebase,prisma,redis,openai,pytorch,tailwind,express,vite)
 
 </div>
 
 ---
 
-### 💼 Things I've built
+## 📦 selected work
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 💰 Cartis
-AI financial coaching — wallet & budget intelligence with a buy-or-wait verdict before every spend, plus a browser extension that watches product pages while you shop.
-`Rust` `Axum` `Next.js` `PostgreSQL` · [live ↗](https://cartis.dpdns.org)
+### `cartis` — 💰 AI financial coach
+Reads your real money — wallet, budget, spending pace — and gives a
+**buy-or-wait verdict** before every decision. Browser extension watches
+product pages as you shop.
 
-</td>
-<td width="50%">
-
-#### 🏋️ FitMentor
-AI fitness coach for Indian beginners — personalized workouts, meal plans, habit tracking and a real-time AI coach streamed over WebSockets, in a PWA + Android app.
-`React` `Rust` `Redis` `WebSockets` · [live ↗](https://fitmentor-7lx.pages.dev)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 🗺️ Synapse
-Campus platform for Adamas University — department chat rooms, RAG-powered AI assistant, WebGL campus map with AI navigation, live bus tracking and notices.
-`Next.js` `NestJS` `OpenAI` `WebGL`
+```
+Rust · Axum · Next.js · PostgreSQL · GraphQL
+```
+**→ [cartis.dpdns.org](https://cartis.dpdns.org)**
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🌐 3D Portfolio
-Scroll-driven cinematic experience — R3F scenes, custom GLSL shaders, particles, gaze-following camera and split-character type reveals.
-`Next.js` `Three.js` `GSAP` · [live ↗](https://saptarshi2006.github.io)
+### `fitmentor` — 🏋️ AI fitness coach
+Personalized workouts, Indian meal plans, habit tracking and a real-time
+AI coach streamed over WebSockets — as a PWA **and** a native Android app.
+
+```
+React · Rust · Redis · WebSockets · React Native
+```
+**→ [fitmentor-7lx.pages.dev](https://fitmentor-7lx.pages.dev)**
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🔍 Fraud Detection
-Production ML pipeline — XGBoost & LightGBM training with SHAP explainability and FastAPI model serving.
-`Python` `Scikit-learn` `SHAP`
+### `synapse` — 🗺️ campus platform
+Department chat rooms, RAG-powered AI assistant, WebGL campus map with
+AI navigation, live bus tracking, notices and a photobooth.
+
+```
+Next.js · NestJS · OpenAI · WebGL · Razorpay
+```
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🎂 Ankhi
-A birthday site — Next.js, statically exported and deployed to Cloudflare Workers, with e2e tests.
-`Next.js` `TypeScript` `Playwright`
+### `portfolio` — 🌐 3D experience
+Scroll-driven cinematic site — R3F scenes, custom GLSL shaders, particles,
+gaze-following camera, split-character type reveals.
+
+```
+Next.js · Three.js · GSAP · GLSL
+```
+**→ [saptarshi2006.github.io](https://saptarshi2006.github.io)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `finance` — 🔍 fraud detection
+Production ML pipeline — XGBoost & LightGBM training, SHAP
+explainability, FastAPI model serving.
+
+```
+Python · Scikit-learn · SHAP · FastAPI
+```
+
+</td>
+<td width="50%" valign="top">
+
+### `ankhi` — 🎂 birthday site
+Next.js, statically exported and deployed to Cloudflare Workers,
+with Playwright e2e tests against the export.
+
+```
+Next.js · TypeScript · Playwright · Workers
+```
 
 </td>
 </tr>
@@ -104,7 +135,7 @@ A birthday site — Next.js, statically exported and deployed to Cloudflare Work
 
 ---
 
-### 📊 GitHub stats
+## 📊 github metrics
 
 <div align="center">
 
@@ -124,14 +155,25 @@ A birthday site — Next.js, statically exported and deployed to Cloudflare Work
 
 ---
 
-### 🤝 Let's connect
+## 📬 contact
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/Saptarshi2006?style=for-the-badge&label=Follow&logo=github&logoColor=white)](https://github.com/Saptarshi2006)
+```console
+$ curl -s https://api.saptarshi.dev/contact
+→ linkedin.com/in/saptarshi-mukherjee-6a2b20280
+→ x.com/Saptarshi2006
+→ saptarshi.mukherjee.dev@gmail.com
+→ saptarshi2006.github.io
+```
 
-<i>⚡ Always open to interesting projects, collaborations and good conversations.</i>
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=Saptarshi2006&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
+[![GitHub followers](https://img.shields.io/github/followers/Saptarshi2006?style=plastic&label=Follow&logo=github&logoColor=white)](https://github.com/Saptarshi2006)
+<img src="https://komarev.com/ghpvc/?username=Saptarshi2006&style=plastic&color=7c3aed&label=VIEWS" alt="Profile views" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Saptarshi2006/Saptarshi2006/main/assets/footer.svg" width="100%" alt="keep shipping" />
 
 </div>
