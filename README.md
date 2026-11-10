@@ -108,10 +108,17 @@ A birthday site — Next.js, statically exported and deployed to Cloudflare Work
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Saptarshi2006&show_icons=true&hide_border=true&rank_direction=horizontal&theme=tokyonight" alt="Saptarshi's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saptarshi2006&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Saptarshi2006&theme=tokyonight" alt="GitHub stats" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Saptarshi2006&theme=tokyonight" alt="Top languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Saptarshi2006&theme=tokyonight" alt="Most committed languages" />
+
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com/?user=Saptarshi2006&hide_border=true&theme=tokyonight" alt="GitHub streak" />
+
+<br/>
+
+<img src="https://github-trophy.vercel.app/?username=Saptarshi2006&theme=onedark&column=7&no-frame=true" alt="GitHub trophies" width="100%" />
 
 </div>
 
